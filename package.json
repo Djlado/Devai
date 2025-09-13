@@ -1,20 +1,15 @@
 {
-  "name": "devpilot-ai-backend",
+  "name": "devpilot-ai",
   "version": "1.0.0",
-  "description": "Backend for DevPilot AI using Gemini API",
-  "main": "app.js",
+  "description": "AI-powered code editor",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.21.1",
-    "@google/generative-ai": "^0.24.1"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": ["ai", "gemini", "coding-assistant"],
-  "author": "Your Name",
-  "license": "MIT"
+    "@google/generative-ai": "^0.15.0",
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
 }
