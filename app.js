@@ -8,7 +8,7 @@ const port = 3000; // Fixed port for local testing
 app.use(express.json());
 
 // Initialize Gemini API with your hardcoded key
-const genAI = new GoogleGenerativeAI('AIzaSy...YOUR_ACTUAL_KEY_HERE'); // Paste your full key here
+const genAI = new GoogleGenerativeAI('AIzaSyCURz7A2o4Eb0iZa_rGxP5Rxgb5zL3oUkA'); // Paste your full key here
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 // Endpoint to generate code
